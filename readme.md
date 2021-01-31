@@ -35,6 +35,8 @@ Mocha will be our testing framework, but we're mostly just using it as a test ru
 
 > "Mocha is a feature-rich JavaScript test framework running on Node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping (associating) uncaught exceptions to the correct test cases."
 
+The syntax for testing with Mocha is going to be relatively standard. And once we see it working with our pre-made Candies db, we can reuse and recycle this code to test any back end data that we make or use.
+
 For assertions, we will use Chai. From the [Chai website](http://chaijs.com/)...
 
 > "Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework."
