@@ -45,7 +45,7 @@ For assertions, we will use Chai. From the [Chai website](http://chaijs.com/)...
 > A: It's a way of writing a unit test that tests whether or not a test case is passing or failing by comparing the expected result with the actual result of a test. 
 
 If we have 4 items in a database and we want to test a PUT/POST method, we should have..... how many items in our db?
-Likewise, if we want to run and test a DELET method, how many items should there be at the end of testing? 
+Likewise, if we want to run and test a DELETE method, how many items should there be at the end of testing? 
 The assumptions that we make about these thought experiments are what our Assertions mean to test
 
 To be able to make HTTP requests inside tests, we will use [Supertest](https://github.com/visionmedia/supertest)...
