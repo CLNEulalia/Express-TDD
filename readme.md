@@ -41,7 +41,12 @@ For assertions, we will use Chai. From the [Chai website](http://chaijs.com/)...
 
 > "Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework."
 
-> Q: What the heck is an assertion? It's a way of writing a unit test that tests whether or not a test case is passing or failing by comparing the expected result with the actual result of a test.
+> Q: What the heck is an assertion? 
+> A: It's a way of writing a unit test that tests whether or not a test case is passing or failing by comparing the expected result with the actual result of a test. 
+
+If we have 4 items in a database and we want to test a PUT/POST method, we should have..... how many items in our db?
+Likewise, if we want to run and test a DELET method, how many items should there be at the end of testing? 
+The assumptions that we make about these thought experiments are what our Assertions mean to test
 
 To be able to make HTTP requests inside tests, we will use [Supertest](https://github.com/visionmedia/supertest)...
 
