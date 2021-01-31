@@ -44,7 +44,7 @@ To be able to make HTTP requests inside tests, we will use [Supertest](https://g
 ### Setting up the app
 
 Clone down the starter code from [this
-repository](https://git.generalassemb.ly/sei-921/express-tdd-exercise).
+repository](https://git.generalassemb.ly/SEIR-1130/express-tdd-exercisee).
 Take a moment to familiarize yourself with the Express app and get everything
 set up. 
 
@@ -136,8 +136,8 @@ Let's break down what's happening here.
   * `.set()` sets an http header on the request. In this case we're specifying what type of data we want to receive
   * `.expect()` tests the response. In this case we're checking to see if the status code is `200`. The second argument is the `done` function we've declared at the top of `it()`. Passing it in here tells the code we're finished with this block.
 
-Now go in the command line and type `mocha`. When you do, you may get an error
-saying that the `mocha` command cannot be found.
+
+We cant use Mocha yet, because it has not been set up in this directory. If we run it, we will get an error saying that the `mocha` command cannot be found.
 
 This is because `mocha` is not installed globally on our machines (though it's
 possible you may have it already installed). While we could simply install mocha
