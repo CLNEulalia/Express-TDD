@@ -11,15 +11,21 @@
 
 We've now created a number of applications.  All these apps cover a single topic, so most of the time, they are quite small.  But when you create a larger application, the codebase will become bigger and more complex every time you add some features. At some point, adding code in file A will break features in file B, and to avoid these "side-effects" or at least recognize immediately when they happen, we need to write tests our app and run them on each change. In a production-level application, providing a high level of [test coverage](https://www.guru99.com/test-coverage-in-software-testing.html) for an application is usually required in order to guarantee that code is bug-free and functions as intended.
 
+
+Whether you are working in Front End and want to make sure the Back End team are doing their jobs correctly, or if you're working Back End and the Front End team says something doesn't work, TDD is a great way to CYA in a large team.
+
 ## TDD: Test-Driven Development
 
-A development methodology of writing the tests first, then writing the code to make those tests pass. Thus the process is:
+A development methodology of writing the tests first, then writing the code to make those tests pass. The process for this is:
 
 1. Define a test set for the unit
 2. Implement the unit
 3. Verify that the implementation of the unit makes the tests succeed
 4. Refactor
 5. Repeat
+6. ???
+7. Profit
+
 
 ## Intro to JavaScript Testing with Mocha & Chai
 
