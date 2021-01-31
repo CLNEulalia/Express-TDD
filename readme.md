@@ -52,6 +52,8 @@ To be able to make HTTP requests inside tests, we will use [Supertest](https://g
 
 > "The motivation with this module is to provide a high-level abstraction for testing HTTP"
 
+Remember that OOP pillar of Abstraction? What we are doing should be (relatively) simple for the programmer, but be able to do a lot of complicated behind-the-scenes work for us.
+
 ## We Do: Create Tests
 
 ### Setting up the app
