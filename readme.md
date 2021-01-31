@@ -235,7 +235,7 @@ it("should return an array", done => {
   })
 ```
 
-NB: In the first test, we were using the `.expect` method of `supertest`. Here we are using the expect function provided by `chai`.
+In the first test, we were using the `.expect` method of `supertest`. Here we are using the expect function provided by `chai`.
 
 We can write another test that verifies the presence of a field in the response...
 
@@ -309,9 +309,7 @@ Now, we can verify that calling "POST" will add an object to candies...
   });
 ```
 
-Run `npm test` in your CLI, you should now have four passing tests!
-
-> How many times can you run this test and have it pass? How can you fix this?
+Run `npm test` in your CLI, we can test multiple blocks at once, and we can see if individual methods (Get, Post, Delete....) can work while others may not
 
 ## Break (10 min / 1:15)
 
