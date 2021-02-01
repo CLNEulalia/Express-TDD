@@ -59,7 +59,7 @@ Remember that OOP pillar of Abstraction? What we are doing should be (relatively
 ### Setting up the app
 
 Clone down the starter code from [this
-repository](https://git.generalassemb.ly/SEIR-1130/express-tdd-exercisee).
+repository](https://git.generalassemb.ly/SEIR-1130/express-tdd-exercise).
 Take a moment to familiarize yourself with the Express app and get everything
 set up. 
 
